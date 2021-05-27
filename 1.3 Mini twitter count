@@ -2,5 +2,7 @@ var x = prompt ("Enter your tweet: (200 characters MAX)");
 var y = x.length;
 var z = 200-x.length;
 
-alert ("You have entered "+ y + " characters , " + z + " characters left");
 
+alert ("You have entered "+ y + " characters , " + z + " characters left");
+//this cuts off the excess strings based on start and end index -1
+alert (x.slice(0,10));
