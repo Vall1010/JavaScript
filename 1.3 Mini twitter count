@@ -6,3 +6,7 @@ var z = 200-x.length;
 alert ("You have entered "+ y + " characters , " + z + " characters left");
 //this cuts off the excess strings based on start and end index -1
 alert (x.slice(0,10));
+
+
+
+// cleaner version : alert(prompt("compose your message :").slice(0,140));
