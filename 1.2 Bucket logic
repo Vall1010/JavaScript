@@ -1,0 +1,9 @@
+var a = 3;
+var b = 8;
+var c;
+
+a=c;
+b=a;
+c=a;
+
+alert("value of a is: "+ a +  "value of b is: " b );
