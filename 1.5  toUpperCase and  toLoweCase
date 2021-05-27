@@ -1,0 +1,9 @@
+alert("Welcome to our toUppercase challenge");
+var name = prompt("Please enter your name: ")
+var x= name.slice(0,1).toUpperCase();
+var y= name.slice(1,10).toLowerCase();
+
+
+
+
+alert("Hi "+ x+y);
