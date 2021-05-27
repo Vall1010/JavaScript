@@ -41,3 +41,36 @@ turnLeft();
 move();
 turnLeft();
 moveRow();}
+
+#################################
+Diagonal Move 
+
+
+function main(){
+
+diagonal();
+diagonal();
+diagonal();
+diagonal();
+putBeeper();
+
+}
+
+
+
+function diagonal(){
+   
+   turnLeft();
+   putBeeper();
+   move();
+   turnRight();
+   move();
+   
+   }
+
+
+#############################
+
+Alternating Put
+
+
