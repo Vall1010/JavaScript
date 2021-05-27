@@ -1,0 +1,5 @@
+alert("Welcome to our Dog age to Human age app!!!")
+var dogAge = prompt("Please enter Dog age in human yeats: ");
+
+var humanAge = ((dogAge -2)*4)+21;
+alert ("your dog is " +humanAge +" years old in dog years");
