@@ -3,7 +3,17 @@ var name = prompt("Please enter your name: ")
 var x= name.slice(0,1).toUpperCase();
 var y= name.slice(1,10).toLowerCase();
 
-
-
-
 alert("Hi "+ x+y);
+
+
+//bettter version
+
+alert("Welcome to our toUppercase challenge");
+var name = prompt("Please enter your name: ")
+var firstLetter= name.slice(0,1).toUpperCase();
+var nextLetters= name.slice(1,name.length).toLowerCase();
+var fullName = firstLetter+nextLetters;
+
+
+
+alert("Hi "+ fullName);
