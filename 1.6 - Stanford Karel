@@ -73,4 +73,48 @@ function diagonal(){
 
 Alternating Put
 
+function main(){
 
+turnL();
+turnR();
+turnL();
+turnR();
+finalM();
+}
+
+function turnL(){
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   turnLeft();
+   move();
+   turnLeft();
+   }
+   
+   
+   function turnR(){
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   turnRight();
+   move();turnRight();
+   }
+   
+   function finalM(){
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   }
+   
+   ##############################
