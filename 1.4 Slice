@@ -1,0 +1,4 @@
+// slice(starting character  to but not including the second number indicated
+//slice count starts from 0
+var y = "percivall";
+y.slice(0,3);
